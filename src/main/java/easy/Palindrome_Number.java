@@ -39,6 +39,8 @@ public class Palindrome_Number {
 
             x = (x % div) / 10;
 
+
+            
             div /= 100;
         }
 
