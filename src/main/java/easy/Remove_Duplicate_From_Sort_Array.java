@@ -4,7 +4,6 @@ public class Remove_Duplicate_From_Sort_Array {
 
     public int removeDuplicates(int[] nums) {
 
-
         if (nums.length == 0) {
             return 0;
         }
