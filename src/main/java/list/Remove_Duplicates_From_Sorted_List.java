@@ -1,4 +1,5 @@
-package easy;
+package list;
+
 
 public class Remove_Duplicates_From_Sorted_List {
 
