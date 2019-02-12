@@ -5,6 +5,6 @@ package easy;
 // 3.
 public class Majority_Element {
     public int majorityElement(int[] nums) {
-
+        return 0;
     }
 }
