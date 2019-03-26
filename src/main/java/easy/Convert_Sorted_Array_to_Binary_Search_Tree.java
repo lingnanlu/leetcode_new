@@ -10,7 +10,6 @@ public class Convert_Sorted_Array_to_Binary_Search_Tree {
         return sortedArrayToBST(nums, 0, nums.length - 1);
     }
 
-
     public TreeNode sortedArrayToBST(int[] nums, int left, int right) {
         if (left <= right) {
             int middle = (left + right) / 2;
