@@ -23,6 +23,8 @@ public class Search_Insert_Position {
         //当l>r时
         //由以上分析可知, 一定比nums[r]要大(因为r在l的左边), 而比nums[l]的值小(因为l在r的右边)
         //所以应该插到r之后, 即l的位置
+
+        // 实在想不明白就举只有一个元素的数组的例子
         return l;
     }
 

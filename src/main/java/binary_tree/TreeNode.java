@@ -6,4 +6,8 @@ public class TreeNode {
     TreeNode right;
     TreeNode(int val) {this.val = val;}
 
+    public boolean isLeaf() {
+        return left == null && right == null;
+    }
+
 }
