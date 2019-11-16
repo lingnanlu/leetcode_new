@@ -34,5 +34,7 @@ public class H_Index_2 {
                 return citations[middle];
             }
         }
+
+        return 0;
     }
 }

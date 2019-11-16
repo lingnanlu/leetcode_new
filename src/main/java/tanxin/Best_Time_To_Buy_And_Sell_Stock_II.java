@@ -1,4 +1,4 @@
-package easy;
+package tanxin;
 
 
 public class Best_Time_To_Buy_And_Sell_Stock_II {
@@ -23,6 +23,29 @@ public class Best_Time_To_Buy_And_Sell_Stock_II {
                 maxProfit += prices[i + 1] - prices[i];
             }
         }
+
+        return maxProfit;
+
+    }
+
+
+    public int maxProfit2(int[] prices) {
+
+        if(prices.length == 0) return 0;
+
+        int today = 0;
+        int tomorrow = 1;
+        int lastday = prices.length - 1;
+        int maxProfit = 0;
+
+        while(tomorrow <= lastday) {
+            if(prices[today] < prices[tomorrow]) {
+                maxProfit += prices[tomorrow] - prices[today];
+            }
+            today++;
+            tomorrow++;
+        }
+
 
         return maxProfit;
 
